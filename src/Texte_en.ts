@@ -1,0 +1,9 @@
+let TRANSLATIONS = {};
+
+TRANSLATIONS["TXT_CURRENT_LANGUAGE"] = "Current language is:";
+TRANSLATIONS["TXT_LOGIN"] = "Login";
+TRANSLATIONS["TXT_LOGOUT"] = "Logout";
+
+
+
+
