@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index-Seite</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/default.css"></link>
+<script type="text/javascript" src="js/Texte_en.js"></script>
+<script type="text/javascript" src="js/Browser.js"></script>
+<script type="text/javascript" src="js/Cookie.js"></script>
+<script type="text/javascript" src="js/CommonElements.js"></script>
+<script type="text/javascript" src="js/Funcs.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+<script type="text/javascript" src="js/Main.js"></script>
+</head>
+
+<body>
+<div id="BODY_DIV"></div>
+<script type="text/javascript">
+try {
+   if (Funcs.cookie.getLanguage() == undefined) {
+      Funcs.setLanguage("en");
+   }
+   else {
+      Funcs.setLanguage(Funcs.cookie.getLanguage(), true);
+   }
+}
+catch (e) {
+	Funcs.setLanguage("en", true);
+}
+// window.addEventListener('resize', Funcs.scaleMainDivs());
+window.onresize = function () { Main.scaleMainDivs(); }
+</script>
+
+</body>
+</html>

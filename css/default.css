@@ -1,0 +1,21 @@
+div.Banner {
+	background-color: yellow;
+}
+
+
+div.Toolbar {
+	background-color: lime;
+}
+
+div.Main {
+	background-color: red;
+}
+
+div.Status {
+	background-color: green;
+}
+
+div.Sidebar {
+	background-color: magenta;
+}
+

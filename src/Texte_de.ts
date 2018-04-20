@@ -1,0 +1,5 @@
+TRANSLATIONS = {};
+
+TRANSLATIONS["TXT_CURRENT_LANGUAGE"] = "Die aktuelle Sprache ist: ";
+TRANSLATIONS["TXT_LOGIN"] = "Anmelden";
+TRANSLATIONS["TXT_LOGOUT"] = "Abmelden";
